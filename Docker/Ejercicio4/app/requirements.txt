@@ -1,0 +1,6 @@
+Flask==3.0.1
+
+
+##en el terminal lo instalamos desde la carpeta actual (pip install -r requirements.txt)
+##ejecutamos la aplicación app.py desde el terminal(python app.py)
+#actualizamos la librería (pip install --upgrade Flask)

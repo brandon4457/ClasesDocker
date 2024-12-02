@@ -1,0 +1,19 @@
+##docker compose nos permite ejecutar varios contenedores con un solo archivo
+version: '3.8' 
+
+services:
+  backend:
+    build:
+      context: ./app  # Aquí es donde se construye la imagen, el directorio con el Dockerfile
+    ports:
+      - "5000:5000"
+
+
+  backend2:
+    build:
+      context: ./app  # Aquí es donde se construye la imagen, el directorio con el Dockerfile
+    ports:
+      - "5001:5000"
+
+
+  
